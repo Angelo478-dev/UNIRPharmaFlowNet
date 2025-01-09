@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="UNIRPharmaFlow.Controller.PedidoManagementController">
+    <Position X="7.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQEBAAAAACAEAEAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\PedidoManagementController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="IFormularioPedidoVista" />
+      <Property Name="Distribuidor" />
+      <Property Name="Pedido" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="UNIRPharmaFlow.Model.Distribuidor">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Distribuidor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UNIRPharmaFlow.Model.Pedido">
+    <Position X="7.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEAAACAAAAAAAAAAAAAAAAAAAQBAAAAAAABAAA=</HashCode>
+      <FileName>Model\Pedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UNIRPharmaFlow.View.HistoricoVista">
+    <Position X="0.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAgCAAAAAAIADAQAAjAQAAAAQAEEAAAAAIEAA=</HashCode>
+      <FileName>View\HistoricoVista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="UNIRPharmaFlow.View.Interfaz.IFormularioPedidoVista">
+    <Position X="4" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAgEAAQAFAAAAQAAAAAAEAEAAIAEAAA=</HashCode>
+      <FileName>View\Interfaz\IFormularioPedidoVista.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PedidoManagementController" />
+      <Property Name="HistoricoVista" />
+    </ShowAsAssociation>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
